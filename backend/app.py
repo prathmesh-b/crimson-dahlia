@@ -1,3 +1,4 @@
+from flask_sqlalchemy import SQLAlchemy
 from flask import Flask
 from extensions import  db, migrate
 from routes.users import users_bp
